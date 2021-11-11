@@ -32,8 +32,9 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @AbirHasan2005
 
-    await m.reply_text(text=f"**Total Users in DB:** `{total_users}`", parse_mode="Markdown", quote=True)
 
+total_users = await db.total_users_count()
+total users = total_users
 👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
 
 📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
